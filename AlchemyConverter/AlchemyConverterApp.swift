@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct AlchemyConverterApp: App {
+    init() {
+        // Perform setup or initialization here
+        InventoryManager()
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()
